@@ -1,0 +1,504 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap');
+
+
+
+#logo{
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20rem;
+    transition: 0.8s;
+    font-family: 'Noto Serif Display', serif;
+}
+#container-logo{
+    width: 100%;
+    height: 3rem;
+    
+}
+#content{
+    position: relative;
+    top: 22rem;
+    text-align: center;
+    transition: 1s;
+
+}
+#dropdown_link{
+    background-color: none;
+
+}
+#card{
+    width: 100%;
+    top: 10rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#menu-home{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 27rem;
+    transition: 0.7s;
+}
+
+#btn-login a{
+    color: black;
+}
+#btn-carrinho a{
+    color: black;
+}
+#link a{
+    color: black;
+    font-size: 18px;
+    width: 100px;
+}
+
+#cont-promo{
+    background-color: rgb(187, 187, 187);
+    height: 100vh;
+    width: 100%;
+}
+#titulo-cardPromo{
+    padding: 50px;
+}
+#titulo-cardPromo h1{
+    font-family: 'Noto Serif Display', serif;
+}
+#card-promo{
+    width: 20rem;
+    height: 25rem;
+    position: relative;
+    left: 26rem;
+    background-color: black;
+}
+#card-promo2{
+    width: 20rem;
+    height: 25rem;
+    position: relative;
+    top: 7rem;
+    left: 74rem;
+    margin: 0;
+    background-color: black;
+}
+
+.cards-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#adicionar {
+    margin-top: 60%;
+}
+
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    
+    
+    
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    flex: 0 0 30%;
+
+    padding: 20px;
+    text-align: center;
+
+    border: none !important;
+    margin-right: 10px;
+  
+  }
+  
+  
+  .prev {
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.089);
+  }
+  
+  .next {
+    right: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+   
+    height: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.089);
+  }
+  .next:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+    .prev:focus{
+        outline: thin dotted;
+            outline: 0px auto -webkit-focus-ring-color;
+            outline-offset: 0px;
+        }
+  #body-card{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  }
+  #menu-Carrosel{
+    padding-top: 5rem; 
+    margin-left: 4rem;
+  }
+  hr{
+    color: black;
+    width: 90%;
+  }
+  .btns-carrosel{
+    margin-right: 3rem !important;
+    background-color: transparent;
+    border: none;
+    text-decoration: none ;
+    cursor: pointer;
+    width: 7rem;
+    height: 4rem;
+    display: inline-block;
+    font-size: large;
+
+  }
+  .btns-carrosel:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+    .ver-produto {
+        text-decoration: none;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        border: 1px solid black;
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        color: black;
+        border-radius: 3px;
+        
+    }
+    .ver-produto:hover{
+        background-color: rgb(0, 0, 0);
+        border-color: black;
+        color: white;
+    }
+    .link-carLogin{
+        width: 100%;
+    }
+    .btn-car{
+        width: 100%;
+        -webkit-appearance: none !important;
+    }
+    
+    #categorias {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    #categorias form {
+        width: auto;
+        display: inline-block;
+
+    }
+    .visualizar-categoria{
+        margin-top: 50px;
+        width: 120px;
+        height: 120px;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(236, 236, 236);
+        transition: 1s;
+       
+    }
+    #btn-acessar-Aneis{
+        background-image: url('img/coisas inter/anel-de-diamante.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90px 90px;
+    }
+    #btn-acessar-Brincos{
+        background-image: url('img/coisas inter/brincos.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90px 90px;
+    }
+    #btn-acessar-Colares{
+        background-image: url('img/coisas inter/colar.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90px 90px;
+    }
+    #btn-acessar-Coleções{
+        background-image: url('img/coisas inter/colecoes.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90px 90px;
+        
+    }
+    .visualizar-categoria:hover{
+        transform: scale(1.1);
+        transition: 0.8s;
+        background-color: rgb(236, 236, 236)
+    }
+    .titulo-categoria {
+        display: inline-block;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        z-index: 10;
+        width: 120px;
+        height: 120px;
+    }
+    .footer-Maciella{
+        background-color: #785196CF;
+        height: 200px;
+        width: 100%;
+        color: white;
+        padding-top: 150px;
+    }
+    .footer-Maciella a{
+        color: white;
+    }
+
+    .link-página-coleção {
+        width: 100%;
+        height: 500px;
+        background-color: beige;
+        margin-bottom: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    .visualizar-coleção{
+        width: 100%;
+        height: 500px;
+        border: none;
+        cursor: pointer;
+        background-color: black;
+        opacity: 90%;
+    }
+    #btn-acessar-Serpent{
+        background-image: url("img/coleções/coleção\ -\ SERPENTE/270717-cobra-bulgaria-01-1280x720.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: blur(3px);
+        
+    }
+    #btn-acessar-Serpent:hover{
+        background-size: 110%;
+    
+    }
+    #btn-acessar-Pedra{
+        background-image: url("img/coleções/coleção\ -\ PEDRA/55fdfe4b4149df6b253666a44213bff6.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: blur(3px);
+        
+    }
+    #btn-acessar-Pedra:hover{
+        background-size: 110%;
+    
+    }
+    .titulo{
+
+        font-size: 80px;
+        position: relative;
+        top: -50%;
+        color: rgb(255, 255, 255);
+        
+    }
+    #carrinho{
+        background-color: white;
+        width: 25%;
+        margin-left: 100%;
+        transition: 0.7s;
+        
+    }
+    .botao-carrinho{
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .botao-carrinho:focus{
+        outline: thin dotted;
+            outline: 0px auto -webkit-focus-ring-color;
+            outline-offset: 0px;
+        }
+        .img-produto-carrinho{
+            width: 80px;
+            height: 100px;
+        }
+.tirar-produto{
+    position: absolute;
+    top: 1px;
+}
+.lt {
+    font-size: smaller !important;
+    font-family: Julius Sans One;
+}
+p{
+    margin: 0;
+}
+.card-carrinho{
+    height: 100px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+.titulo-produto{
+    font-size: medium;
+    
+}
+.adicionar-qtd{
+    align-items: center;
+    justify-content: center;
+}
+.div-texto{
+    width: 180px;
+}
+#sacola-Car {
+    transition: 0.6s;
+}
+.row{
+    justify-content: center;
+}
+.card-produto {
+    transition: 1s;
+}
+.card-produto:hover{
+    transform: scale(1.1);
+}
+
+.voltar-pagina{
+    font-size: 24px;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s;
+    width: 100%;
+}
+.voltar-pagina:hover{
+    transform: scale(1.1);
+}
+#divs-escondidas {
+    width: 70%;
+    background-color: #fff;
+    height: auto;
+    display: inline-block;
+    padding: 3rem;
+}
+#divs-informacao{
+    width: 30%;
+    background-color: #fff;
+    height: auto;
+    display: inline-block ;
+    padding: 3rem;
+}
+.div-escondida{
+    width: 100%;
+    height: auto;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+.conteudos-finaliza{
+    width: 100%;
+    height: 350px;
+    padding: 1rem;
+    background-color: white;
+}
+#entrega-infos{
+    background-color: rgb(255, 255, 255);
+
+}
+.endereco{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+.cupom{
+    padding: 1rem;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    height: 130px;
+
+}
+#cupom{
+    width: 70%;
+    height: 47px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0.5px  -1px rgba(0, 0, 0, 0.274);
+}
+#entregarCupom {
+     width: 15%;
+     height: 40px;
+     border: 0.5px solid black;
+     border-radius: 5px;
+     margin-left: 1rem;
+     background-color: #D9D9D9;
+}
+.infos-finais{
+    height: 300px;
+    margin-top: 2rem;
+    background-color: #F0F0F0;
+    padding: 2rem;
+}
+.mudaImagem{
+    transition: 0.1s;
+}
+.mudaImagem:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.but{
+    text-decoration: none;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.but:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    border: none;
+    outline-style: none;
+}
